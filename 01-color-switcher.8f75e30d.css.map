@@ -1,0 +1,1 @@
+{"version":3,"sources":["css/01-color-switcher.scss"],"names":[],"mappings":"AAAA,KACI,kBAGJ,OACI","file":"01-color-switcher.8f75e30d.css","sourceRoot":"../src","sourcesContent":["body {\n    text-align: center;\n}\n\nbutton {\n    margin-top: 200px;\n}"]}
