@@ -1,4 +1,4 @@
-import '../css/main.scss';
+import '../css/01-color-switcher.scss';
 const refs = {
   body: document.querySelector('body'),
   start: document.querySelector('button[data-start]'),
