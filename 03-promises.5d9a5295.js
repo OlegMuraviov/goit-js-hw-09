@@ -3,4 +3,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"GyVV":[function(require,module,exports) {
 "use strict";function e(e,o){return new Promise((t,s)=>{setTimeout(()=>{Math.random()>.3?t({position:e,delay:o}):s({position:e,delay:o})},o)})}require("../css/03-promises.scss");const o=document.querySelector(".form");function t(o){o.preventDefault();const{delay:t,step:s,amount:n}=o.currentTarget;console.log(t.value,s,n);let i=Number(t.value);for(let l=1;l<=n.value;l++)e(l,i).then(({position:e,delay:o})=>{console.log(`✅ Fulfilled promise ${e} in ${o}ms`)}).catch(({position:e,delay:o})=>{console.log(`❌ Rejected promise ${e} in ${o}ms`)}),i+=Number(s.value)}o.addEventListener("submit",t);
 },{"../css/03-promises.scss":"M0SN"}]},{},["GyVV"], null)
-//# sourceMappingURL=/parcel-project-template/03-promises.5d9a5295.js.map
+//# sourceMappingURL=/goit-js-hw-09/03-promises.5d9a5295.js.map
